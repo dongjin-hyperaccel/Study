@@ -1,0 +1,579 @@
+p
+p
+cd RD2_UHS_DOC-Common_sec231031_0030
+cd DataSheet
+firefox samsung_foundry_ln04lpp_s00_memory_compiler_rd2_uhs_v1.52_datasheet_rev1.52.pdf &
+ls
+p
+cd UserGuide
+firefox samsung_foundry_ln04lpp_s00_memory_compiler_rd2_uhs_v1.52_userguide_rev1.52.pdf &
+top
+ls
+ls
+df -h .
+df -h .
+ls
+top
+lscpu
+grep -o -w 'lm' /proc/cpuinfo | sort -u
+getconf LONG_BIT
+cd
+df -h .
+tclsh
+cd Downloads
+ls
+tar xvf ActiveTcl-8.6.13.0000-x86_64-linux-glibc-2.28-6fc89a29.tar
+ls
+rm -rf ActiveTcl-8.6.13.0000-x86_64-linux-glibc-2.28-6fc89a29.tar
+ls
+cd ActiveTcl-8.6.13.0000-x86_64-linux-glibc-2.28-6fc89a29
+./install
+./install.sh
+ls
+p
+cd bin
+./tclsh
+ls
+p
+cd lib
+cd tcllib1.21
+ls *com*
+tclsh
+p
+cd ppm
+p
+ls */*t
+ls */*tm
+pp
+mkdir test
+cd test
+ls
+tar xvf ActiveTcl-8.6.13.0000-x86_64-linux-glibc-2.28-d1ae6588.tar
+ls
+cd ActiveTcl-8.6.13.0000-x86_64-linux-glibc-2.28-d1ae6588
+./install.sh
+ls
+p
+cd include
+v tclDecls.h
+p
+cd li
+cd lib
+cd tcllib1.21
+cd tiff
+p
+p
+cd critcl3.2
+ls
+v pkgIndex.tcl
+p
+cd tk8.6
+p
+p
+cd tdk
+p
+cd Downloads
+cd tdk
+ls
+cd lib
+cd tclcompiler
+ls
+ls *tm
+ls */*tm
+p
+find . -type f -name "*tm"
+p
+cd pkg-src
+p
+cd lib
+cd
+mkdir GIT
+cd GIT
+git clone git@github.com:dongjin-hyperaccel/Study.git
+ls
+cd Study
+ls
+git branch -a
+git branch -vv
+git branch develop
+git branch -a
+git push origin dev
+git push origin develop
+git branch -a
+git branch -vv
+git status
+git switch -c develop
+git checkout develop
+git branch -a
+git remote -v
+git checkout -help
+git branch -a
+git checkout origin/develop
+git branch -a
+git checkout develop
+git branch -a
+git status
+git branch -vv
+git branch -v
+ls
+touch commit1
+ls
+git status
+git add .
+git status
+git branch -a
+git commit -m "commit1"
+git branch -a
+git branch -vv
+git push origin/develop develop
+git branch -a
+git branch -v
+git checkout origin/develop
+git status
+git branch -a
+git checkout develop
+ls
+git status
+git branch -a
+git push origin develop
+git branch -a
+git branch -vv
+git branch -a
+h
+git branch -a
+git switch -c feat/commit2
+git branch -a
+git branch -a
+git status
+ls
+touch commit22
+ls
+git branch -a
+git add .
+git status
+git commit -m "feat2"
+git status
+git branch -a
+git log
+git branch -a
+git remote -v
+git remote set-head origin -a
+git branch -a
+git brach -a
+git status
+gi branch -
+git switch 
+git switch  develop
+git branch -
+git branch -a
+git branch -a
+git remote add origin develop
+git remote -v
+git pull origin develop
+git branch -a
+git merge feat/commit2
+git branch =a
+git branch -a
+git push origin develop
+git log
+git branch -a
+git branch -a
+git switch origin/develop
+git checkout origin/develop
+git branch -a
+git checkout develop
+git branch -a
+git switch develop
+git checkout develop
+git switch main
+git merge devlop
+git merge develop
+git log
+git push origin main
+git branch -vv
+git branch -a
+git pull origin main
+git config pull.rebase fale
+git config pull.rebase false
+git pull origin main
+git branch -a
+git log
+git push 
+git branch -a
+git switch develop
+ls
+git switch -c feat/commit2-1
+git branch -a
+ls
+mkdir DEV2
+cd DEV2
+touch commit2-1
+git add .
+git commit -m "feat commit2-1"
+git branch -a
+git status
+top
+git switch develop
+git branch -a
+git merge --squash feat/commit2-1
+git branch -a
+git log
+git status
+git commit -m "squash & merge"
+git branch -a
+git log
+h
+git log
+h
+git push origin develop
+git switch main 
+git pull origin main
+git branch -a
+git switch develop
+git status
+git branch 
+git branch  -a
+ls
+touch commit2-2
+git add .
+git commit -m "2-2\n"
+git status
+git branch -a
+git push origin develop
+git log
+git switch main
+git branch -a
+git merge --squash develop
+git status
+git commit -m "main feat 2-2"
+git log
+h
+git push origin main
+git branch -a
+git switch -c "add/final"
+git branch -a
+ls
+p
+mkdir DEV3
+cd DEV3
+touch commit3-1
+git add .
+git commit -m "add 3-1"
+git status
+git branch -a
+touch commit 3-2
+git add .
+git commit -m "add 3-2"
+git branch -a
+git branch -vv
+git branch -a
+git switch develop 
+git pull origin develop
+git status
+git branch -a
+git merge --squash add/final
+git status
+ls
+git commit -m "add 3-2"
+git push origin develop
+ls
+git log
+git switch -c release
+git branch -a
+git push -u origin release
+git branch -a
+git merge --squash develpe
+git merge --squash develop
+git branch -a
+git switch -c remove/final
+git branch -a
+ls
+rm -rf 3-2
+ls
+git add .
+git commit -m "remove"
+git status
+git switch develop
+git merge remove/final
+git push origin develop
+git switch release
+git branch -a
+git merge --squash develop
+git commit -m "release 1.0"
+git push origin release
+git switch main
+git merge --squash release
+git commit -m "ML0"
+git push origin main
+git switch develop
+ls
+p
+mkdir DEV4
+cd DEV4
+ls
+touch a
+git add .
+git commit -m "dev4"
+git branch -a
+git push origin develop
+30911b413e2f7e526735942bbcd87b56050fd7ba
+git
+git switch main
+ls
+git branch -a
+git -
+git push -
+git push --
+git push -help
+git push -force 
+y
+git push --force
+git log
+h
+git reset --hard
+git log
+git reset --hard a8ed37b7b26ee03d0354b9a1120d5d43ca6eb375
+git log
+git push --force
+ls
+top
+ls
+p
+git status
+ls
+git branch -a
+git switch -c test0
+git branch -a
+ls
+touch bb
+git status
+git add .
+git status
+git commit -m "a"
+git switch develop
+git branch -a
+git merge --squash test0
+git branch -a
+git status
+git commit -m "b"
+git push 
+git branch -a
+git branch -vv
+git push -u origin develop
+git remote -v
+git remote
+cd
+cd 0.Env
+cd 1.Color
+v setup.zsh
+autoload -Uz vcs_info
+precmd() {vcs_info}
+zstyle ':vcs_info:git:*' formats '(%b)'
+[??] ? ??? GIT ??? - ?? ???, ?? ???, ???? ? ??? ???? ??? ??????|??? JI NOH
+cd
+cd GIT
+cd Study
+ls
+ll
+zstyle ':vcs_info:git:*' formats '(%b)'
+[??] ? ??? GIT ??? - ?? ???, ?? ???, ???? ? ??? ???? ??? ??????|??? JI NOH
+setopt PROMPT_SUBST
+PROMPT='%F{yellow}%~%k%f %F{green}${vcs_info_msg_0_}%f$ '
+[??] ? ??? GIT ??? - ?? ???, ?? ???, ???? ? ??? ???? ??? ??????|??? JI NOH
+ls
+cd DEV2
+cd
+p
+cd
+cd Bertha
+cd 240715_backup
+cd Bertha-Hardware
+ls
+git branch -a
+ls
+set_title
+cd /share
+cd
+cd Bertha
+cd 240715
+cd Bertha-Hardware
+git branch -a
+git switch release
+cd
+cd .zshrc
+v .zshrc
+cd DJ
+cd 0
+p
+cd 0.Env
+cd 1.Color
+v git.zsh
+cd /share
+cd dk
+cd arm_SE35LB011
+cd samsung
+cd 14lpp
+cd sc9mcpp84_base_rvt_c14
+cd r1p1
+cd db-ccs-tn-scm
+p
+p
+p
+p
+p
+p
+mv /home/members/dongjin/SE35* .
+ls
+tar xvf SE35LD000-FE-r0p0-06eac0.tar
+tar xvf SE35TF000-FE-r1p0-05eac0.tar.gz
+ls
+cd arm
+cd samsung
+ls
+cd 14lpp
+p
+p
+p
+ls
+rm -rf arm
+ls
+rm -rf README-samsung-14lpp-platform_userguide.txt manifest.txt SE35LD000-FE-00000-r0p0-01eac0.lst SE35LD000-FE-r0p0-06eac0-manifest.txt
+ls
+tar xvf SE35LD000-FE-r0p0-06eac0.tar
+ls
+mv arm SE35LD000
+ls
+mv arm_SE35LB011 SE35LB011
+ls
+ls
+tar xvf SE35TF000-FE-r1p0-05eac0.tar.gz
+ls
+mv arm SE35TF000
+ls
+rm -rf SE35LD000-FE-00000-r0p0-01eac0.lst SE35LD000-FE-r0p0-06eac0-manifest.txt SE35LD000-FE-r0p0-06eac0.tar SE35TF000-FE-r1p0-05eac0.tar.gz README-samsung-14lpp-platform_userguide.txt manifest.txt
+ls
+cd
+cd share
+mkdir Intern
+cd Intern
+ls
+v main.tcl
+grep S6P
+grep S6P ./*
+ls
+v library.tcl
+v vc_lint.tcl
+ls
+p
+p
+cd GIT
+cd Study
+git branch -a
+p
+cd JINWON
+cd Study
+gir branch -a
+git branch -a
+git brnach -a
+ls
+git branch -a
+git push origin --delete jinwon
+git branch -a
+git push origin --delete develop
+git push remotes/origin --delete develop
+git branch -vv
+git branch -a
+git fetch origin
+git branch -a
+git push remotes/origin --delete develop
+git push origin --delete develop
+git switch main
+git fetch origin
+ls
+ls
+git branch -a
+git push origin --delete develop
+git branch -r
+git push origin :develop
+git status
+git checkout jinwon
+git push origin :jinwon
+ls
+p
+cd Study
+p
+p
+ls
+rm -rf ./*
+ls
+git clone git@github.com:dongjin-hyperaccel/Study.git
+ls
+cd Study
+git branch -a
+git branch
+git status
+touch README
+git add .
+git status
+git commit -m "Readme added"
+git push 
+git branch -a
+ls
+git checkout -b dev
+git branch -a
+git push -u origin dev
+ls
+git branch -a
+git checkout -b impl
+git branch -a
+    ls
+mkdir IMPL
+cd IMPL
+v env.sh 
+ls
+git status
+p
+git status
+git add .
+git status
+git commit -m "Impl init commit"
+git branch -a
+git push origin impl
+ls
+ls
+ls
+git branch -a
+git switch dev
+ls
+git switch impl
+ls
+ls
+git branch -a
+git fetch origin
+git branch -a
+ls
+cd IMPL
+ls
+mkdir COMMON
+cd COMMON
+mkdir COMMON_DC
+cd COMMON_DC
+touch README
+v README
+git add .
+git status
+git commit -m "COMMON DC README"
+git push 
+git push --set-upstream origin impl
+git fetch 
+origin
+git switch dev
+ls
+git pull origin dev
+git fetch
+git fetch
+ls
+git branch 
+git switch impl
+history -n 1000 > qq
+v qq
